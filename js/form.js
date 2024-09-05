@@ -138,6 +138,7 @@ else if (listacremas == "CHAJA"){
 }
 else if (listacremas == "ROGEL"){
   document.getElementById("des1").innerHTML = "MASA TIPO HOJALDRE<br><br>DULCE DE LECHE REPOSTERO<br><br>MERENGUE ITALIANO";
+  imagenTorta.innerHTML = '<img src="rogelf.jpg" alt="Torta Rogel" class="imgTorta" />';
 }
 else if (listacremas == "ESTANDAR"){
   document.getElementById("des1").innerHTML = "BIZCOCHUELO DE VAINILLA<br><br>RELLENO: COMBINADO DE DULCE DE LECHE REPOSTERO CON CREMA DE LECHE<br><br>DECORACION: MERENGUE ITALIANO";
