@@ -119,8 +119,8 @@ body {
   margin: 2px;
   }
 .formulario__imagen{
-  width: 200px;
-  height: 300px;
+  width: fit-content;
+  height: fit-content;
   margin: auto;
 }
 .formulario__subtitulo2{
