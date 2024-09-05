@@ -14,62 +14,35 @@
     <form id="tortas" action="" class="formulario" name="tortas" required=""> 
       <img src="Logo.png" class="imgLogo" />
 
-      <h1 class="formulario__titulo"></h1>
+      <h1 class="formulario__titulo">TORTAS CLÁSICAS</h1>
       <h3 class="formulario__subtitulo">PEDIDO</h3>
       <p class="formulario__parrafo">
         Llena este pequeño formulario para agendar su pedido
       </p>
 
-      <label for="bizcochuelo" class="formulario__label"
-        >SABOR DEL BIZCOCHUELO</label
-      >
-      <select id="bizcochuelo" name="listaservicios" class="formulario__input" required="" onchange="precio()" >
-        <option value="">-- ELIJA UN SABOR --</option>
-        <option value="BIZCOCHUELO DE VAINILLA">BIZCOCHUELO DE VAINILLA</option>
-        <option value="BIZCOCHUELO DE CHOCOLATE">BIZCOCHUELO DE CHOCOLATE</option>
-        
-      </select>
-
       <label for="relleno1" class="formulario__label"
-        >RELLENO 1</label
+        >ELIJA EL TIPO DE TORTA</label
       >
       <select id="listacremas" name="listacremas" class="formulario__input2" required="" onchange="javascript: cambia_cremas(this.options[this.selectedIndex].value); precio()">
-        <option value="">-- ELIJA UN SABOR --</option>
-        <option value="DULCE DE LECHE REPOSTERO">DULCE DE LECHE REPOSTERO</option>
-        <option value="GANACHE DE CHOCOLATE NEGRO">GANACHE DE CHOCOLATE NEGRO</option>
-        <option value="GANACHE BLANCO CON MARROC">GANACHE BLANCO CON MARROC</option>
-        <option value="COMBINADO DE REPOSTERO CON GANACHE NEGRO">COMBINADO DE REPOSTERO CON GANACHE NEGRO</option>
+        <option value="">-- SELECCIONE UN TIPO DE TORTA --</option>
+        <option value="ESTANDAR">ESTANDAR</option>
+        <option value="ROGEL">ROGEL</option>
+        <option value="CHAJA">CHAJA</option>
+        <option value="SELVA NEGRA">SELVA NEGRA</option>
+        <option value="MOCCA">MOCCA</option>
+        <option value="FRUTILLA">FRUTILLA</option>
       </select>
 
+      <p>
+        <h4 id="des1" class="formulario__label2"></h4>
+      </p>
+     
       <label for="relleno2" class="formulario__label"
-        >RELLENO 2</label>
+        >TAMAÑO DE LA TORTA</label>
       
         <select id="cremas" name="cremas" class="formulario__input" onchange="precio()" >
-          <option value="">-- ELIJA UN SABOR --</option>
+          <option value="">-- ELIJA UN TAMAÑO --</option>
          </select>
-
-      <label for="decoracion" class="formulario__label"
-        >DECORACION</label
-      >
-      <select id="decoracion" name="decoracion" class="formulario__input" required="" onchange="precio()">
-        <option value="">-- ELIJA UN SABOR --</option>
-        <option value="CREMA DE LECHE">CREMA DE LECHE</option>
-        <option value="GANACHE DE CHOCOLATE">GANACHE DE CHOCOLATE</option>
-        <option value="MERENGUE">MERENGUE</option>
-        <option value="BUTTERCREAM">BUTTERCREAM</option>
-      </select>
-
-      <label for="tamaño" class="formulario__label"
-        >TAMAÑO DE BIZCOCHUELO</label>
-
-      <select id="tamaño" name="tamaño" class="formulario__input" required="" onchange="precio()">
-        <option>-- ELIJA LA CANTIDAD DE PORCIONES --</option>
-        <option value="10 PORCIONES">10 PORCIONES - APROX. 1,300 Kg</option>
-        <option value="20 PORCIONES">20 PORCIONES - APROX. 2,500 Kg</option>
-        <option value="25 PORCIONES">25 PORCIONES - APROX. 3,300 Kg</option>
-        <option value="30 PORCIONES">30 PORCIONES - APROX. 4,000 Kg</option>
-        <option value="35 PORCIONES">35 PORCIONES - APROX. 5,000 Kg</option>
-      </select>
 
       <label for="tamaño" class="formulario__label"
         >FECHA DE ENTREGA</label>
@@ -97,16 +70,7 @@
         required=""
         placeholder="Indica cuál es tu nombre completo"
       />
-      <label for="detalle" class="formulario__label">Agregar descripcion especifica respecto a la decoración (Decoracion Femenina o Masculina,frases,etc)</label>
-      <input
-        id="detalle"
-        type="text"
-        class="formulario__input"
-        required=""
-        placeholder="Agrega una descripción"
-      />
       <h4 class="formulario__subtitulo">TODAS LAS TORTAS TIENEN CAJA, EXCEPTO LA DE 35 PORCIONES</h4>
-      <h4 class="formulario__subtitulo">AGREGADOS DE FLORES Y PERSONAJES EN PASTA,COLORES INTENSOS, LÁMINAS COMESTIBLES, DRIP DE CHOCOLATE Y DEMÁS DETALLES DE DECORACIÓN ESPECIFICA TIENEN UN COSTO ADICIONAL. (CONSULTAR POR WHATSAPP)</h4> 
       <h3 class="formulario__subtitulo2">PARA RESERVAR DEBE SEÑAR</h3>
       <h3 class="formulario__subtitulo2">EL 50% DE LA TORTA</h3>
 
