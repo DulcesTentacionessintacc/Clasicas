@@ -118,7 +118,11 @@ body {
   transition: all 1s;
   margin: 2px;
   }
-
+.formulario__imagen{
+  width: 200px;
+  height: 300px;
+  margin: auto;
+}
 .formulario__subtitulo2{
   color: rgb(255, 0, 0);
   text-align: center;
