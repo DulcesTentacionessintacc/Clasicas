@@ -164,7 +164,7 @@ document.querySelector("#submit").addEventListener("click", e => {
   resp.classList.remove("send");
 
   let url = `https://api.whatsapp.com/send?phone=${telefono}&text=
-		--DULCES TENTACIONES SIN TACC--%0A
+		--DOLCE TENTAZIONE SIN TACC--%0A
 		*PEDIDO*%0A%0A
 		*¿Cuál es tu nombre?*%0A
 		${cliente}%0A%0A
