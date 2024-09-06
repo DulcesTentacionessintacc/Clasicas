@@ -138,7 +138,7 @@ else if (listacremas == "SELVA NEGRA"){
 }
 else if (listacremas == "CHAJA"){
   document.getElementById("des1").innerHTML = "BIZCOCHUELO DE VAINILLA<br><br>2 RELLENOS:<br><br>1- DULCE DE LECHE REPOSTERO CON MERENGUITOS<br><br>2- CREMA DE LECHE CON DURAZNO<br><br>DECORACION: MERENGUE CON MERENGUITOS";
- imagenTorta.innerHTML = '<img src="chaja.png" alt="Torta Rogel" class="imgTorta" />';
+ imagenTorta.innerHTML = '<img src="chaja.jpg" alt="Torta Rogel" class="imgTorta" />';
 }
 else if (listacremas == "ROGEL"){
   document.getElementById("des1").innerHTML = "MASA TIPO HOJALDRE<br><br>DULCE DE LECHE REPOSTERO<br><br>MERENGUE ITALIANO";
