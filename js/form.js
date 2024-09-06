@@ -126,6 +126,7 @@ else if (listacremas == "FRUTILLA" && cremas == "25 PORCIONES"){
 }
 else if (listacremas == "FRUTILLA"){
   document.getElementById("des1").innerHTML = "BIZCOCHUELO DE VAINILLA<br><br>2 RELLENOS:<br><br>1- DULCE DE LECHE REPOSTERO<br><br>2- CREMA DE LECHE CON FRUTILLAS<br><br>DECORACION: MERENGUE ITALIANO CON FRUTILLAS";
+  imagenTorta.innerHTML = '<img src="frutilla.png" alt="Torta Rogel" class="imgTorta" />';
 }
 else if (listacremas == "MOCCA"){
   document.getElementById("des1").innerHTML = "BIZCOCHUELO DE CHOCOLATE<br><br>2 RELLENOS:<br><br>1- DULCE DE LECHE REPOSTERO<br><br>2- CREMA MOCCA<br><br>DECORACION: CREMA MOCCA CON DRIP DE CHOCOLATE";
