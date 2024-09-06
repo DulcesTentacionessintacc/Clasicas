@@ -129,12 +129,15 @@ else if (listacremas == "FRUTILLA"){
 }
 else if (listacremas == "MOCCA"){
   document.getElementById("des1").innerHTML = "BIZCOCHUELO DE CHOCOLATE<br><br>2 RELLENOS:<br><br>1- DULCE DE LECHE REPOSTERO<br><br>2- CREMA MOCCA<br><br>DECORACION: CREMA MOCCA CON DRIP DE CHOCOLATE";
+  imagenTorta.innerHTML = '<img src="mocca.jpg" alt="Torta Rogel" class="imgTorta" />';
 }
 else if (listacremas == "SELVA NEGRA"){
   document.getElementById("des1").innerHTML = "BIZCOCHUELO DE CHOCOLATE<br><br>RELLENO: CREMA DE LECHE CON FRUTOS ROJOS<br><br>DECORACION: CREMA DE LECHE CON CHOCOLATE Y FRUTOS ROJOS";
+  imagenTorta.innerHTML = '<img src="selvanegra.jpg" alt="Torta Rogel" class="imgTorta" />';
 }
 else if (listacremas == "CHAJA"){
   document.getElementById("des1").innerHTML = "BIZCOCHUELO DE VAINILLA<br><br>2 RELLENOS:<br><br>1- DULCE DE LECHE REPOSTERO CON MERENGUITOS<br><br>2- CREMA DE LECHE CON DURAZNO<br><br>DECORACION: MERENGUE CON MERENGUITOS";
+ imagenTorta.innerHTML = '<img src="chaja.png" alt="Torta Rogel" class="imgTorta" />';
 }
 else if (listacremas == "ROGEL"){
   document.getElementById("des1").innerHTML = "MASA TIPO HOJALDRE<br><br>DULCE DE LECHE REPOSTERO<br><br>MERENGUE ITALIANO";
@@ -142,6 +145,7 @@ else if (listacremas == "ROGEL"){
 }
 else if (listacremas == "ESTANDAR"){
   document.getElementById("des1").innerHTML = "BIZCOCHUELO DE VAINILLA<br><br>RELLENO: COMBINADO DE DULCE DE LECHE REPOSTERO CON CREMA DE LECHE<br><br>DECORACION: MERENGUE ITALIANO";
+  imagenTorta.innerHTML = '<img src="estandar.jpg" alt="Torta Rogel" class="imgTorta" />';
 }
 
 else{}
