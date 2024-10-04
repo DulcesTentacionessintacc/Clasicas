@@ -68,61 +68,61 @@ return true;
    
   
 if(listacremas == "ESTANDAR" && cremas == "8 PORCIONES"){
-  document.getElementById("salida").innerHTML = "$20850";
+  document.getElementById("salida").innerHTML = "$21600";
 }
 else if (listacremas == "ESTANDAR" && cremas == "15 PORCIONES"){
-  document.getElementById("salida").innerHTML = "$27350";
+  document.getElementById("salida").innerHTML = "$28800";
 }
 else if (listacremas == "ESTANDAR" && cremas == "22 PORCIONES"){
-  document.getElementById("salida").innerHTML = "$34000";
+  document.getElementById("salida").innerHTML = "$35600";
 }
 else if (listacremas == "ESTANDAR" && cremas == "28 PORCIONES"){
-  document.getElementById("salida").innerHTML = "$41300";
+  document.getElementById("salida").innerHTML = "$43800";
 }
 else if (listacremas == "ROGEL" && cremas == "13 CM"){
-  document.getElementById("salida").innerHTML = "$22500";
+  document.getElementById("salida").innerHTML = "$23500";
 }
 else if (listacremas == "ROGEL" && cremas == "22 CM"){
-  document.getElementById("salida").innerHTML = "$36900";
+  document.getElementById("salida").innerHTML = "$38600";
 }
 else if (listacremas == "ROGEL" && cremas == "30 CM"){
-  document.getElementById("salida").innerHTML = "$49600";
+  document.getElementById("salida").innerHTML = "$51800";
 }
 else if (listacremas == "CHAJA" && cremas == "12 PORCIONES"){
-  document.getElementById("salida").innerHTML = "$24000";
+  document.getElementById("salida").innerHTML = "$25200";
 }
 else if (listacremas == "CHAJA" && cremas == "20 PORCIONES"){
-  document.getElementById("salida").innerHTML = "$29800";
+  document.getElementById("salida").innerHTML = "$31300";
 }
 else if (listacremas == "CHAJA" && cremas == "25 PORCIONES"){
-  document.getElementById("salida").innerHTML = "$35850";
+  document.getElementById("salida").innerHTML = "$33500";
 }
 else if (listacremas == "SELVA NEGRA" && cremas == "8 PORCIONES"){
-  document.getElementById("salida").innerHTML = "$28600";
+  document.getElementById("salida").innerHTML = "$30700";
 }
 else if (listacremas == "SELVA NEGRA" && cremas == "15 PORCIONES"){
-  document.getElementById("salida").innerHTML = "$37800";
+  document.getElementById("salida").innerHTML = "$40600";
 }
 else if (listacremas == "SELVA NEGRA" && cremas == "22 PORCIONES"){
-  document.getElementById("salida").innerHTML = "$44750";
+  document.getElementById("salida").innerHTML = "$47800";
 }
 else if (listacremas == "MOCCA" && cremas == "12 PORCIONES"){
-  document.getElementById("salida").innerHTML = "$36250";
+  document.getElementById("salida").innerHTML = "$38000";
 }
 else if (listacremas == "MOCCA" && cremas == "20 PORCIONES"){
-  document.getElementById("salida").innerHTML = "$49050";
+  document.getElementById("salida").innerHTML = "$51700";
 }
 else if (listacremas == "MOCCA" && cremas == "25 PORCIONES"){
-  document.getElementById("salida").innerHTML = "$63100";
+  document.getElementById("salida").innerHTML = "$66600";
 }
 else if (listacremas == "FRUTILLA" && cremas == "12 PORCIONES"){
-  document.getElementById("salida").innerHTML = "$23600";
+  document.getElementById("salida").innerHTML = "$24800";
 }
 else if (listacremas == "FRUTILLA" && cremas == "20 PORCIONES"){
-  document.getElementById("salida").innerHTML = "$29550";
+  document.getElementById("salida").innerHTML = "$31000";
 }
 else if (listacremas == "FRUTILLA" && cremas == "25 PORCIONES"){
-  document.getElementById("salida").innerHTML = "$36150";
+  document.getElementById("salida").innerHTML = "$38200";
 }
 else if (listacremas == "FRUTILLA"){
   document.getElementById("des1").innerHTML = "BIZCOCHUELO DE VAINILLA<br><br>2 RELLENOS:<br><br>1- DULCE DE LECHE REPOSTERO<br><br>2- CREMA DE LECHE CON FRUTILLAS<br><br>DECORACION: MERENGUE ITALIANO CON FRUTILLAS";
