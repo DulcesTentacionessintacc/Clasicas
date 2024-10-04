@@ -95,7 +95,7 @@ else if (listacremas == "CHAJA" && cremas == "20 PORCIONES"){
   document.getElementById("salida").innerHTML = "$31300";
 }
 else if (listacremas == "CHAJA" && cremas == "25 PORCIONES"){
-  document.getElementById("salida").innerHTML = "$33500";
+  document.getElementById("salida").innerHTML = "$37900";
 }
 else if (listacremas == "SELVA NEGRA" && cremas == "8 PORCIONES"){
   document.getElementById("salida").innerHTML = "$30700";
