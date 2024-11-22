@@ -47,7 +47,7 @@ document.tortas.cremas.options[3]=new Option("25 PORCIONES","25 PORCIONES");
 
 break;
 
-case "FRUTILLA" :
+case "FRUTAL" :
 document.tortas.cremas.options[0]=new Option("-- ELIJA UN TAMAÑO --","-- ELIJA UN TAMAÑO --");
 document.tortas.cremas.options[1]=new Option("12 PORCIONES","12 PORCIONES");
 document.tortas.cremas.options[2]=new Option("20 PORCIONES","20 PORCIONES");
@@ -68,64 +68,64 @@ return true;
    
   
 if(listacremas == "ESTANDAR" && cremas == "8 PORCIONES"){
-  document.getElementById("salida").innerHTML = "$21600";
+  document.getElementById("salida").innerHTML = "$22400";
 }
 else if (listacremas == "ESTANDAR" && cremas == "15 PORCIONES"){
-  document.getElementById("salida").innerHTML = "$28800";
+  document.getElementById("salida").innerHTML = "$29800";
 }
 else if (listacremas == "ESTANDAR" && cremas == "22 PORCIONES"){
-  document.getElementById("salida").innerHTML = "$35600";
+  document.getElementById("salida").innerHTML = "$36900";
 }
 else if (listacremas == "ESTANDAR" && cremas == "28 PORCIONES"){
-  document.getElementById("salida").innerHTML = "$43800";
+  document.getElementById("salida").innerHTML = "$45700";
 }
 else if (listacremas == "ROGEL" && cremas == "13 CM"){
-  document.getElementById("salida").innerHTML = "$23500";
+  document.getElementById("salida").innerHTML = "$24300";
 }
 else if (listacremas == "ROGEL" && cremas == "22 CM"){
-  document.getElementById("salida").innerHTML = "$38600";
+  document.getElementById("salida").innerHTML = "$39900";
 }
 else if (listacremas == "ROGEL" && cremas == "30 CM"){
-  document.getElementById("salida").innerHTML = "$51800";
+  document.getElementById("salida").innerHTML = "$53700";
 }
 else if (listacremas == "CHAJA" && cremas == "12 PORCIONES"){
-  document.getElementById("salida").innerHTML = "$25200";
+  document.getElementById("salida").innerHTML = "$26100";
 }
 else if (listacremas == "CHAJA" && cremas == "20 PORCIONES"){
-  document.getElementById("salida").innerHTML = "$31300";
+  document.getElementById("salida").innerHTML = "$32500";
 }
 else if (listacremas == "CHAJA" && cremas == "25 PORCIONES"){
-  document.getElementById("salida").innerHTML = "$37900";
+  document.getElementById("salida").innerHTML = "$39500";
 }
 else if (listacremas == "SELVA NEGRA" && cremas == "8 PORCIONES"){
-  document.getElementById("salida").innerHTML = "$30700";
+  document.getElementById("salida").innerHTML = "$32300";
 }
 else if (listacremas == "SELVA NEGRA" && cremas == "15 PORCIONES"){
-  document.getElementById("salida").innerHTML = "$40600";
+  document.getElementById("salida").innerHTML = "$42900";
 }
 else if (listacremas == "SELVA NEGRA" && cremas == "22 PORCIONES"){
-  document.getElementById("salida").innerHTML = "$47800";
+  document.getElementById("salida").innerHTML = "$50900";
 }
 else if (listacremas == "MOCCA" && cremas == "12 PORCIONES"){
-  document.getElementById("salida").innerHTML = "$38000";
+  document.getElementById("salida").innerHTML = "$40600";
 }
 else if (listacremas == "MOCCA" && cremas == "20 PORCIONES"){
-  document.getElementById("salida").innerHTML = "$51700";
+  document.getElementById("salida").innerHTML = "$55200";
 }
 else if (listacremas == "MOCCA" && cremas == "25 PORCIONES"){
-  document.getElementById("salida").innerHTML = "$66600";
+  document.getElementById("salida").innerHTML = "$71600";
 }
-else if (listacremas == "FRUTILLA" && cremas == "12 PORCIONES"){
-  document.getElementById("salida").innerHTML = "$24800";
+else if (listacremas == "FRUTAL" && cremas == "12 PORCIONES"){
+  document.getElementById("salida").innerHTML = "27900";
 }
-else if (listacremas == "FRUTILLA" && cremas == "20 PORCIONES"){
-  document.getElementById("salida").innerHTML = "$31000";
+else if (listacremas == "FRUTAL" && cremas == "20 PORCIONES"){
+  document.getElementById("salida").innerHTML = "$34000";
 }
-else if (listacremas == "FRUTILLA" && cremas == "25 PORCIONES"){
-  document.getElementById("salida").innerHTML = "$38200";
+else if (listacremas == "FRUTAL" && cremas == "25 PORCIONES"){
+  document.getElementById("salida").innerHTML = "$41200";
 }
-else if (listacremas == "FRUTILLA"){
-  document.getElementById("des1").innerHTML = "BIZCOCHUELO DE VAINILLA<br><br>2 RELLENOS:<br><br>1- DULCE DE LECHE REPOSTERO<br><br>2- CREMA DE LECHE CON FRUTILLAS<br><br>DECORACION: MERENGUE ITALIANO CON FRUTILLAS";
+else if (listacremas == "FRUTAL"){
+  document.getElementById("des1").innerHTML = "BIZCOCHUELO DE VAINILLA<br><br>2 RELLENOS:<br><br>1- DULCE DE LECHE REPOSTERO<br><br>2- CREMA DE LECHE<br><br>DECORACION: MERENGUE ITALIANO<br><br>FRUTAS DE ESTACION KIWI/DURAZNO";
   imagenTorta.innerHTML = '<img src="frutilla.jpg" alt="Torta Rogel" class="imgTorta" />';
 }
 else if (listacremas == "MOCCA"){
