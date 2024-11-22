@@ -116,7 +116,7 @@ else if (listacremas == "MOCCA" && cremas == "25 PORCIONES"){
   document.getElementById("salida").innerHTML = "$71600";
 }
 else if (listacremas == "FRUTAL" && cremas == "12 PORCIONES"){
-  document.getElementById("salida").innerHTML = "27900";
+  document.getElementById("salida").innerHTML = "$27900";
 }
 else if (listacremas == "FRUTAL" && cremas == "20 PORCIONES"){
   document.getElementById("salida").innerHTML = "$34000";
