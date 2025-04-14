@@ -43,7 +43,6 @@ case "MOCCA" :
 document.tortas.cremas.options[0]=new Option("-- ELIJA UN TAMAÑO --","-- ELIJA UN TAMAÑO --");
 document.tortas.cremas.options[1]=new Option("12 PORCIONES","12 PORCIONES");
 document.tortas.cremas.options[2]=new Option("20 PORCIONES","20 PORCIONES");
-document.tortas.cremas.options[3]=new Option("25 PORCIONES","25 PORCIONES");
 
 break;
 }
@@ -99,9 +98,6 @@ else if (listacremas == "MOCCA" && cremas == "12 PORCIONES"){
 }
 else if (listacremas == "MOCCA" && cremas == "20 PORCIONES"){
   document.getElementById("salida").innerHTML = "$65800";
-}
-else if (listacremas == "MOCCA" && cremas == "25 PORCIONES"){
-  document.getElementById("salida").innerHTML = "";
 }
 else if (listacremas == "MOCCA"){
   document.getElementById("des1").innerHTML = "BIZCOCHUELO DE CHOCOLATE<br><br>2 RELLENOS:<br><br>1- DULCE DE LECHE REPOSTERO<br><br>2- CREMA MOCCA<br><br>DECORACION: CREMA MOCCA CON DRIP DE CHOCOLATE";
