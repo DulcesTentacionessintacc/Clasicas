@@ -62,46 +62,46 @@ if(listacremas == "ESTANDAR" && cremas == "8 PORCIONES"){
   document.getElementById("salida").innerHTML = "$27900";
 }
 else if (listacremas == "ESTANDAR" && cremas == "15 PORCIONES"){
-  document.getElementById("salida").innerHTML = "$39500";
+  document.getElementById("salida").innerHTML = "$33900";
 }
 else if (listacremas == "ESTANDAR" && cremas == "22 PORCIONES"){
-  document.getElementById("salida").innerHTML = "$49600";
+  document.getElementById("salida").innerHTML = "$42700";
 }
 else if (listacremas == "ROGEL" && cremas == "13 CM"){
-  document.getElementById("salida").innerHTML = "$29100";
+  document.getElementById("salida").innerHTML = "$24800";
 }
 else if (listacremas == "ROGEL" && cremas == "22 CM"){
-  document.getElementById("salida").innerHTML = "$52600";
+  document.getElementById("salida").innerHTML = "$45800";
 }
 else if (listacremas == "ROGEL" && cremas == "30 CM"){
-  document.getElementById("salida").innerHTML = "$75800";
+  document.getElementById("salida").innerHTML = "$66200";
 }
 else if (listacremas == "CHAJA" && cremas == "12 PORCIONES"){
-  document.getElementById("salida").innerHTML = "$31500";
+  document.getElementById("salida").innerHTML = "$27300";
 }
 else if (listacremas == "CHAJA" && cremas == "20 PORCIONES"){
-  document.getElementById("salida").innerHTML = "$42200";
+  document.getElementById("salida").innerHTML = "$36700";
 }
 else if (listacremas == "CHAJA" && cremas == "25 PORCIONES"){
-  document.getElementById("salida").innerHTML = "$52400";
+  document.getElementById("salida").innerHTML = "$45400";
 }
 else if (listacremas == "SELVA NEGRA" && cremas == "8 PORCIONES"){
-  document.getElementById("salida").innerHTML = "$39800";
+  document.getElementById("salida").innerHTML = "$33100";
 }
 else if (listacremas == "SELVA NEGRA" && cremas == "15 PORCIONES"){
-  document.getElementById("salida").innerHTML = "$55200";
+  document.getElementById("salida").innerHTML = "$45700";
 }
 else if (listacremas == "SELVA NEGRA" && cremas == "22 PORCIONES"){
-  document.getElementById("salida").innerHTML = "$70300";
+  document.getElementById("salida").innerHTML = "$58100";
 }
 else if (listacremas == "MOCCA" && cremas == "12 PORCIONES"){
-  document.getElementById("salida").innerHTML = "$55000";
+  document.getElementById("salida").innerHTML = "$45950";
 }
 else if (listacremas == "MOCCA" && cremas == "20 PORCIONES"){
-  document.getElementById("salida").innerHTML = "$78850";
+  document.getElementById("salida").innerHTML = "$65800";
 }
 else if (listacremas == "MOCCA" && cremas == "25 PORCIONES"){
-  document.getElementById("salida").innerHTML = "$102100";
+  document.getElementById("salida").innerHTML = "";
 }
 else if (listacremas == "MOCCA"){
   document.getElementById("des1").innerHTML = "BIZCOCHUELO DE CHOCOLATE<br><br>2 RELLENOS:<br><br>1- DULCE DE LECHE REPOSTERO<br><br>2- CREMA MOCCA<br><br>DECORACION: CREMA MOCCA CON DRIP DE CHOCOLATE";
